@@ -73,6 +73,9 @@ Notes
 - Public dataset links and references are provided in 1_Documentation/.
 - For mobile deployment, see 7_Demo_App/mobile_integration for pointers to Android (TFLite) and Flutter.
 - The .docx and .pptx files are placeholders; author content and export from the provided markdown as needed.
+- Streamlit deployment:
+  - Local: `streamlit run streamlit_app.py`
+  - Streamlit Cloud/Heroku: Repo includes `.streamlit/config.toml`, `Procfile`, `packages.txt`.
 - Movement model guidance:
   - Default decision agent prefers `movement_cnn.keras` (1D CNN). It converts to TFLite with BUILTINS only (no Flex).
   - The LSTM (`movement_lstm.keras`) converts with Select TF ops and requires the Flex delegate; use only if allowed on target.
