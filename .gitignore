@@ -1,0 +1,19 @@
+# Byte-compiled
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints
+
+# Envs
+.venv/
+
+# Artifacts
+3_Feature_Engineering/.artifacts/
+4_Models/.models/
+4_Models/.config/
+5_OnDevice_Optimization/.tflite/
+
+# Data
+2_Datasets/*.csv
+
+# OS
+.DS_Store
