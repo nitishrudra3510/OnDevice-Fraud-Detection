@@ -1,3 +1,23 @@
+Samsung EnnovateX 2025 AI Challenge Submission
+
+- Problem Statement: On-Device Multi-Agent System for Behavior-Based Anomaly & Fraud Detection
+- Team name: <Your Team Name>
+- Team members (Names): <Member 1>, <Member 2>, <Member 3>, <Member 4>
+- Demo Video Link: <YouTube URL>
+
+Project Artefacts
+
+- Technical Documentation: see docs in `1_Documentation/` (Problem, Literature, System Design)
+- Source Code: this repository (`src` equivalent under project folders)
+- Models Used: scikit-learn (OC-SVM, Isolation Forest), TensorFlow (Autoencoder, CNN/LSTM)
+- Models Published: TFLite and Keras artifacts included in `deploy_bundle/`
+- Datasets Used: Synthetic generator in `2_Datasets/` with schema mirroring public datasets
+- Datasets Published: Synthetic CSVs generated locally (see generator)
+
+Attribution
+
+- Built by the team for Samsung EnnovateX 2025. Template structure adapted from the submission guidance [ai-challenge-submission-template](https://github.com/ennovatex-io/ai-challenge-submission-template).
+
 On-Device Multi-Agent System for Behavior-Based Anomaly & Fraud Detection
 
 Overview
